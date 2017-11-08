@@ -1,6 +1,16 @@
+# [Vagrant]
+.vagrant
+*.retry
+.env
+
+# [Terraform]
 # Compiled files
 *.tfstate
 *.tfstate.backup
 
 # Module directory
 .terraform/
+
+# [Mac]
+.DS_Store
+
